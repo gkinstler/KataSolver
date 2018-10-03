@@ -6,7 +6,8 @@ namespace KataSolver
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            MathOps mathOps = new MathOps();
+            
         }
     }
 }
