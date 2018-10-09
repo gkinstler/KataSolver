@@ -6,7 +6,11 @@ namespace KataSolver
     {
         static void Main(string[] args)
         {
-            MathOps mathOps = new MathOps();
+            BasicMathOps mathOps = new BasicMathOps();
+
+            CenturyFromYear centuryFromYear = new CenturyFromYear();
+
+
             
         }
     }
