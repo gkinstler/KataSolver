@@ -69,5 +69,75 @@ namespace KataSolver
         }
     }
 
+    public class MakeNegative
+    {
+        public static int MakeNegativeTests(int number)
+        {
+            int negNum = number * -1;
+
+            if (number < 0)
+            {
+                return number;
+            }
+            else
+            {
+                return negNum;
+            }
+        }
+        
+    }
+
+    public class DNAtoRNA
+    {
+        public static string DNAtoRNATests(string dna)
+        {
+            string RNA = dna.Replace('T', 'U');
+            return (string)RNA;
+        }
+   
+    }
+
+    public class BonusTime
+    {
+        public static string Bonus_Time_Tests(int salary, bool bonus)
+        {
+            int SalaryWithBonus = salary * 10;
+            string strSalaryWithBonus = SalaryWithBonus.ToString();
+
+            if (bonus == true)
+            {
+                return ("$" + strSalaryWithBonus);
+            }
+
+            return ("$" + salary);
+        }
+    }
+
+    public class RepeatString
+    {
+        public static string repeatStrTests(int n, string s)
+        {
+            string result = s;
+
+            while (n > 1) { result = result + s; n--; }
+
+            return result;
+        }
+    }
+
+    public class GrasshopperSummation
+    {
+        public static int SummationTests(int num)
+        {
+            int answer = 0;
+
+            for (int i = 0; i <= num; i++)
+            {
+                answer += i;
+            }
+
+            return answer;
+        }
+    }
 
 }
