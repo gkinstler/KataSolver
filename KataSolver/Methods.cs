@@ -140,4 +140,45 @@ namespace KataSolver
         }
     }
 
+
+    public class Multiplesof3and5
+    {
+        public static int MultiplesOf3and5_Tests(int value)
+        {
+            // no clue!!
+            return value;
+        }
+    }
+
+    public class FormatWordsIntoASentence
+    {
+        public static string FormatWordsIntoASentence_Tests(string words)
+        {
+            // no clue!!
+            string newString = words;
+            return newString;
+        }
+    }
+
+    public class SplitStrings
+    {
+        public static string SplitStrings_Tests(string str)
+        {
+            // no clue!
+            string answer = str;
+            return answer;
+        }
+    }
+
+    public class ThrowingDarts
+    {
+        public static int ThrowingDarts_Tests(int throw1, int throw2, int throw3)
+        {
+            // no clue!
+            int total = 0;
+            total = throw1 + throw2 + throw3;
+            return total;
+        }
+    }
+
 }
