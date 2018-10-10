@@ -221,8 +221,24 @@ namespace KataSolverTests.tests
 
         }
 
-    }
+        //  5KYU #1  https://www.codewars.com/kata/least-common-multiple/train/csharp //
+        //  Just making a test //
+        [Theory]
+        [InlineData(5, 25)]
+        [InlineData(6, 36)]
+        public void LeastCommonMultiple_Method (int num, int expected)
+        {
+            //  Arrange
+            LeastCommonMultiple leastCommonMultiple = new LeastCommonMultiple();
 
+            //  Act
+            int actual = LeastCommonMultiple.LeastCommonMultiple_Tests(num);
+
+            //  Assert
+            Assert.Equal(actual, expected);
+        }
+
+    }
 
 }
  

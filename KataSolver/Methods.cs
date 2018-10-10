@@ -181,4 +181,14 @@ namespace KataSolver
         }
     }
 
+    public class LeastCommonMultiple
+    {
+        public static int LeastCommonMultiple_Tests(int num)
+        {
+            // no clue!
+            int answer = num * num;
+            return answer;
+        }
+    }
+
 }
